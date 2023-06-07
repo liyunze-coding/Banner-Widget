@@ -25,10 +25,8 @@
 	box-sizing: border-box;
 }
 
-#banner-wrapper {
-	position: relative;
-	overflow: hidden;
-
+#banner-wrapper-wrapper {
+	padding: 0 var(--horizontal-padding);
 	width: var(--container-width);
 	height: var(--container-height);
 
@@ -37,10 +35,21 @@
 	border-radius: var(--border-radius);
 	border: var(--border-width) solid var(--border-color);
 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#banner-wrapper {
+	width: inherit;
+	height: inherit;
+
+	position: relative;
+	overflow: hidden;
 	/* custom settings that ryan decided would be best */
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: center;
 
 	text-align: center;
 	z-index: 1;
@@ -60,6 +69,7 @@
 	/* other settings */
 	width: fit-content;
 	height: 100%;
+	position: absolute;
 
 	display: flex;
 	align-items: center;
@@ -67,6 +77,4 @@
 
 	white-space: nowrap;
 	z-index: -1;
-
-	padding: 0 var(--horizontal-padding);
 }

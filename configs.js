@@ -21,7 +21,7 @@ const configs = (function () {
 	const containerWidth = "300px"; // must have px at the end
 	const containerHeight = "50px"; // must have px at the end
 
-	const horizontalPadding = "50px"; // must have px at the end
+	const horizontalPadding = "10px"; // must have px at the end
 	const gapSizeValue = 1.3; // how much space between the two text elements (primary and secondary)
 
 	const backgroundColor = "#000000"; // hex code
