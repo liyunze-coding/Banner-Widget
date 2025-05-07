@@ -1,4 +1,4 @@
-# Banner Overlay
+# Banner Widget
 
 ## Commands
 
@@ -10,5 +10,5 @@ Just edit the `configs.js` file using Visual Studio Code, Notepad, TextEdit or a
 
 ## Credits
 
--    [RyanPython](https://www.twitch.tv/RyanPython)
+-    [RythonDev](https://www.twitch.tv/RythonDev)
 -    [itsbrandonut](https://www.twitch.tv/itsbrandonut)
